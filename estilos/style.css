@@ -19,6 +19,16 @@ body{
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.escuro{
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 }
 
 :root{
@@ -75,6 +85,7 @@ section#ficha{
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
+  margin-bottom: 20px;
 }
 
 section#ficha img.foto{
